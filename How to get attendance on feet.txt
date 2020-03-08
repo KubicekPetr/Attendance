@@ -1,0 +1,7 @@
+1. Vytvoøit uživatele s username - Admin
+INSERT INTO `users`(`firstname`, `lastname`, `username`, `password`) VALUES ("Jméno", "Pøíjmení", "Admin", "Heslo");
+2. Vytvoøit stopu pro Admina
+INSERT INTO `backup`(`user_id`, `end`, `beginning`) VALUES (ID Admina, 1, NULL);
+
+import database:
+source C:/.../attendance.sql
