@@ -1,0 +1,111 @@
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\attendance.csprojResolveAssemblyReference.cache
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\MainWindow.g.cs
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\App.g.cs
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\attendance_MarkupCompile.cache
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\attendance_MarkupCompile.lref
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\attendance.exe.config
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\attendance.exe
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\attendance.pdb
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\MaterialDesignColors.dll
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\App.baml
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\MainWindow.baml
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\attendance.g.resources
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\attendance.Properties.Resources.resources
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\attendance.csproj.GenerateResource.Cache
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\attendance.csproj.CoreCompileInputs.cache
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\attendance.exe
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\attendance.pdb
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\AdminProps.g.cs
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\AdminProps.baml
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\UserProps.g.cs
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\obj\Debug\UserProps.baml
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\MySql.Data.xml
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\MySql.Data.dll
+C:\Users\Petr Kubíček\source\repos\attendance\attendance\bin\Debug\Google.Protobuf.dll
+G:\attendance\attendance\attendance\bin\Debug\attendance.exe.config
+G:\attendance\attendance\attendance\bin\Debug\attendance.exe
+G:\attendance\attendance\attendance\bin\Debug\attendance.pdb
+G:\attendance\attendance\attendance\bin\Debug\MaterialDesignColors.dll
+G:\attendance\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.dll
+G:\attendance\attendance\attendance\bin\Debug\MySql.Data.dll
+G:\attendance\attendance\attendance\bin\Debug\Google.Protobuf.dll
+G:\attendance\attendance\attendance\bin\Debug\MaterialDesignColors.pdb
+G:\attendance\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.pdb
+G:\attendance\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.xml
+G:\attendance\attendance\attendance\bin\Debug\MySql.Data.xml
+G:\attendance\attendance\attendance\obj\Debug\attendance.csprojResolveAssemblyReference.cache
+G:\attendance\attendance\attendance\obj\Debug\AdminProps.g.cs
+G:\attendance\attendance\attendance\obj\Debug\MainWindow.g.cs
+G:\attendance\attendance\attendance\obj\Debug\UserProps.g.cs
+G:\attendance\attendance\attendance\obj\Debug\App.g.cs
+G:\attendance\attendance\attendance\obj\Debug\attendance_MarkupCompile.cache
+G:\attendance\attendance\attendance\obj\Debug\attendance_MarkupCompile.lref
+G:\attendance\attendance\attendance\obj\Debug\App.baml
+G:\attendance\attendance\attendance\obj\Debug\AdminProps.baml
+G:\attendance\attendance\attendance\obj\Debug\MainWindow.baml
+G:\attendance\attendance\attendance\obj\Debug\UserProps.baml
+G:\attendance\attendance\attendance\obj\Debug\attendance.g.resources
+G:\attendance\attendance\attendance\obj\Debug\attendance.Properties.Resources.resources
+G:\attendance\attendance\attendance\obj\Debug\attendance.csproj.GenerateResource.Cache
+G:\attendance\attendance\attendance\obj\Debug\attendance.csproj.CoreCompileInputs.cache
+G:\attendance\attendance\attendance\obj\Debug\attendance.exe
+G:\attendance\attendance\attendance\obj\Debug\attendance.pdb
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\attendance.exe.config
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\attendance.exe
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\attendance.pdb
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignColors.dll
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\Google.Protobuf.dll
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\bin\Debug\MySql.Data.xml
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.csprojAssemblyReference.cache
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\AdminProps.g.cs
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\MainWindow.g.cs
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\UserProps.g.cs
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\App.g.cs
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance_MarkupCompile.cache
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance_MarkupCompile.lref
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\App.baml
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\AdminProps.baml
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\MainWindow.baml
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\UserProps.baml
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.g.resources
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.Properties.Resources.resources
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.csproj.GenerateResource.cache
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.csproj.CoreCompileInputs.cache
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.csproj.CopyComplete
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.exe
+C:\Users\Petr Kubíček\Desktop\data\prace\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.pdb
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\attendance.exe.config
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\attendance.exe
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\attendance.pdb
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignColors.dll
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\Google.Protobuf.dll
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\bin\Debug\MySql.Data.xml
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.csprojAssemblyReference.cache
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\AdminProps.g.cs
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\MainWindow.g.cs
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\UserProps.g.cs
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\App.g.cs
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\attendance_MarkupCompile.cache
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\attendance_MarkupCompile.lref
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\App.baml
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\AdminProps.baml
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\MainWindow.baml
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\UserProps.baml
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.g.resources
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.Properties.Resources.resources
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.csproj.GenerateResource.cache
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.csproj.CopyComplete
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.exe
+C:\Users\Petr Kubíček\code\rdmoto\attendance\attendance\attendance\obj\Debug\attendance.pdb

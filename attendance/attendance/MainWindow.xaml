@@ -1,0 +1,71 @@
+﻿<Window x:Class="attendance.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:attendance"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Background="#FAFAFA"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"     
+        mc:Ignorable="d"
+        MouseMove="Window_MouseMove"
+        Title="Docházka" Height="275" Width="510">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                             From="0.0" To="1.0" Duration="0:0:0.1"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <WrapPanel Orientation="Vertical" Margin="0,0,0.4,0" Grid.ColumnSpan="2">
+            <Grid Width="250" Height="300">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35*"/>
+                    <RowDefinition Height="75*"/>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="93*"/>
+                    <RowDefinition Height="35*"/>
+                </Grid.RowDefinitions>
+                <Label x:Name="TitleLabel" Grid.Row="1" Margin="35, 0, 0, 0" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Přihlášení" FontSize="28" FontWeight="ExtraBold" FontFamily="sans-serif" Foreground="{DynamicResource PrimaryHueMidBrush}"></Label>
+                <WrapPanel Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <materialDesign:PackIcon Margin="10" Kind="Account" VerticalAlignment="Center" Foreground="{DynamicResource PrimaryHueMidBrush}"></materialDesign:PackIcon>
+                    <TextBox x:Name="UserNameTextBox" HorizontalAlignment="Center" FontSize="20" materialDesign:HintAssist.Hint="Uživatelské jméno" Width="200"></TextBox>
+                </WrapPanel>
+                <WrapPanel Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <materialDesign:PackIcon Margin="10" HorizontalAlignment="Center" Kind="Key" Foreground="{DynamicResource PrimaryHueMidBrush}"></materialDesign:PackIcon>
+                    <PasswordBox x:Name="PasswordTextBox" HorizontalAlignment="Center" FontSize="20" materialDesign:HintAssist.Hint="Heslo" Width="200"></PasswordBox>
+                </WrapPanel>
+                <Button x:Name="LoginButton" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="35, 0, 0, 0" Width="200" Content="Přihlásit se" Foreground="White" Click="LoginButtonClick"></Button>
+            </Grid>
+            <Grid Height="300" Width="250">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="71*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150*"/>
+                    <ColumnDefinition Width="12*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="StateButton" Margin="0, 0, 0, 29" BorderThickness="0" Foreground="White" Width="200" Height="200" Content="Začít" FontSize="30" Grid.Row="2" Click="StateButtonClick" IsEnabled="False"></Button>
+                <Button x:Name="PropsButton" Grid.Row="0" Grid.Column="1" Margin="-25,0, 22,275" Grid.RowSpan="3" IsEnabled="false" Click="PropsButtonClick">
+                    <Button.Content>
+                        <materialDesign:PackIcon Margin="-13, -10, 0, 0" Kind="Account"></materialDesign:PackIcon>
+                    </Button.Content>
+                </Button>
+                <Button x:Name="CloseButton" Click="CloseButtonClick" Grid.Row="0" Grid.Column="1" Margin="0.4,0,-0.4,268" Grid.RowSpan="3" >
+                    <Button.Content>
+                        <materialDesign:PackIcon Margin="-15, -10, 0, 0" Kind="Power"></materialDesign:PackIcon>
+                    </Button.Content>
+                </Button>
+            </Grid>
+        </WrapPanel>
+    </Grid>
+</Window>

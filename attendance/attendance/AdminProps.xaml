@@ -1,0 +1,140 @@
+﻿<Window x:Class="attendance.AdminProps"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:attendance"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"      
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+
+        Background="#f4f4f4"
+        Title="Vlastnosti" Height="600" Width="825">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                             From="0.0" To="1.0" Duration="0:0:0.1"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <WrapPanel Orientation="Vertical" Margin="0,0,0.4,0" Grid.ColumnSpan="2" RenderTransformOrigin="0.073,0.53">
+            <Grid Background="#fafafa" Width="824" Height="300">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="337*"/>
+                    <ColumnDefinition Width="27*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="99*"/>
+                    <RowDefinition Height="45*"/>
+                    <RowDefinition Height="45*"/>
+                    <RowDefinition Height="45*"/>
+                    <RowDefinition Height="45*"/>
+                    <RowDefinition Height="100*"/>
+
+                </Grid.RowDefinitions>
+                <Label Foreground="{DynamicResource PrimaryHueMidBrush}" Grid.Row="0" Margin="291,21,222.6,10.4" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Registrace" FontSize="28" FontWeight="ExtraBold" FontFamily="sans-serif" Height="47" Width="160"></Label>
+                <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="36" Width="236" Margin="242,78,195.6,0.4" Grid.RowSpan="2">
+                    <materialDesign:PackIcon Foreground="{DynamicResource PrimaryHueDarkBrush}" Margin="10" Kind="RenameBox" VerticalAlignment="Center"></materialDesign:PackIcon>
+                    <TextBox x:Name="FirstNameTextBox" Foreground="{DynamicResource PrimaryHueMidBrush}" HorizontalAlignment="Center" FontSize="20" materialDesign:HintAssist.Hint="Jméno" Width="200" Height="33"></TextBox>
+                </WrapPanel>
+                <WrapPanel Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="36" Width="236" Margin="242,0.6,195.6,33.8" Grid.RowSpan="2">
+                    <materialDesign:PackIcon Foreground="{DynamicResource PrimaryHueDarkBrush}" Margin="10" Kind="RenameBox" VerticalAlignment="Center"></materialDesign:PackIcon>
+                    <TextBox x:Name="LastNameTextBox" Foreground="{DynamicResource PrimaryHueMidBrush}" HorizontalAlignment="Center" FontSize="20" materialDesign:HintAssist.Hint="Příjmení" Width="200" Height="35"></TextBox>
+                </WrapPanel>
+                <WrapPanel Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Height="36" Width="236" Margin="242,0.4,195.6,34.8" Grid.RowSpan="2">
+                    <materialDesign:PackIcon Foreground="{DynamicResource PrimaryHueDarkBrush}" Margin="10" Kind="Account" VerticalAlignment="Center"></materialDesign:PackIcon>
+                    <TextBox x:Name="UserNameTextBox" Foreground="{DynamicResource PrimaryHueMidBrush}" HorizontalAlignment="Center" FontSize="20" materialDesign:HintAssist.Hint="Uživatelské jméno" Width="200" Height="33"></TextBox>
+                </WrapPanel>
+                <WrapPanel Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Height="36" Width="236" Margin="242,1.2,195.6,78" Grid.RowSpan="2">
+                    <materialDesign:PackIcon Foreground="{DynamicResource PrimaryHueDarkBrush}" Margin="10" HorizontalAlignment="Center" Kind="Key"></materialDesign:PackIcon>
+                    <TextBox x:Name="PasswordTextBox" Foreground="{DynamicResource PrimaryHueMidBrush}" HorizontalAlignment="Center" FontSize="20" materialDesign:HintAssist.Hint="Heslo" Width="200" Height="34"></TextBox>
+                </WrapPanel>
+                <Button x:Name="RegisterButton" Margin="277,24.2,196.6,23"  VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Content="Registrovat uživatele" Foreground="White" Click="RegisterButtonClick" Grid.Row="5"/>
+                <Button x:Name="CloseButton" Click="CloseButtonClick" Grid.Row="0" Margin="731,-10,12.2,39.4" Height="Auto" RenderTransformOrigin="1.293,0.455">
+                    <Button.Content>
+                        <materialDesign:PackIcon Margin="-14, 0, 0, 0" Kind="Home"></materialDesign:PackIcon>
+                    </Button.Content>
+                </Button>
+            </Grid>
+            <ListView ItemsSource="{Binding RecordsList}" FontWeight="DemiBold" Width="806" HorizontalAlignment="Left" Margin="10,0,0,25" Grid.ColumnSpan="2" Height="230">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn DisplayMemberBinding="{Binding FirstName}" Header="Jméno" Width="100"></GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding LastName}" Header="Příjmení" Width="185"></GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding ConcatDay}" Header="Den" Width="85"></GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Beginning}" Header="Začátek" Width="100"></GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Ending}" Header="Konec" Width="180"></GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Time}" Header="Celkový čas" Width="110"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </WrapPanel>
+        <Grid Height="62" VerticalAlignment="Bottom" Margin="12,0,9.8,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="143*"/>
+                <ColumnDefinition Width="176*"/>
+                <ColumnDefinition Width="131*"/>
+                <ColumnDefinition Width="250*"/>
+            </Grid.ColumnDefinitions>
+            <ComboBox materialDesign:HintAssist.Hint="Uživatel" x:Name="UsersComboBox" VerticalAlignment="Center" HorizontalAlignment="Center" Width="143" Height="28" Margin="0,17,0.2,17"/>
+            <ComboBox materialDesign:HintAssist.Hint="Měsíc" x:Name="MonthComboBox" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Width="166" Height="28" Margin="9.8,17,0.2,17">
+                <ComboBoxItem Content="Leden"></ComboBoxItem>
+                <ComboBoxItem Content="Únor"></ComboBoxItem>
+                <ComboBoxItem Content="Březen"></ComboBoxItem>
+                <ComboBoxItem Content="Duben"></ComboBoxItem>
+                <ComboBoxItem Content="Květen"></ComboBoxItem>
+                <ComboBoxItem Content="Červen"></ComboBoxItem>
+                <ComboBoxItem Content="Červenec"></ComboBoxItem>
+                <ComboBoxItem Content="Srpen"></ComboBoxItem>
+                <ComboBoxItem Content="Září"></ComboBoxItem>
+                <ComboBoxItem Content="Říjen"></ComboBoxItem>
+                <ComboBoxItem Content="Listopad"></ComboBoxItem>
+                <ComboBoxItem Content="Prosinec"></ComboBoxItem>
+            </ComboBox>
+            <ComboBox materialDesign:HintAssist.Hint="Rok" x:Name="YearComboBox" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Width="121" Height="28" Margin="9.8,17,0.4,17">
+                <ComboBoxItem Content="2018"></ComboBoxItem>
+                <ComboBoxItem Content="2019"></ComboBoxItem>
+                <ComboBoxItem Content="2020"></ComboBoxItem>
+                <ComboBoxItem Content="2021"></ComboBoxItem>
+                <ComboBoxItem Content="2022"></ComboBoxItem>
+                <ComboBoxItem Content="2023"></ComboBoxItem>
+                <ComboBoxItem Content="2024"></ComboBoxItem>
+                <ComboBoxItem Content="2025"></ComboBoxItem>
+                <ComboBoxItem Content="2026"></ComboBoxItem>
+                <ComboBoxItem Content="2027"></ComboBoxItem>
+                <ComboBoxItem Content="2028"></ComboBoxItem>
+                <ComboBoxItem Content="2029"></ComboBoxItem>
+                <ComboBoxItem Content="2030"></ComboBoxItem>
+                <ComboBoxItem Content="2031"></ComboBoxItem>
+                <ComboBoxItem Content="2032"></ComboBoxItem>
+                <ComboBoxItem Content="2033"></ComboBoxItem>
+                <ComboBoxItem Content="2034"></ComboBoxItem>
+                <ComboBoxItem Content="2035"></ComboBoxItem>
+                <ComboBoxItem Content="2036"></ComboBoxItem>
+                <ComboBoxItem Content="2037"></ComboBoxItem>
+                <ComboBoxItem Content="2038"></ComboBoxItem>
+                <ComboBoxItem Content="2039"></ComboBoxItem>
+                <ComboBoxItem Content="2040"></ComboBoxItem>
+                <ComboBoxItem Content="2041"></ComboBoxItem>
+                <ComboBoxItem Content="2042"></ComboBoxItem>
+                <ComboBoxItem Content="2043"></ComboBoxItem>
+                <ComboBoxItem Content="2044"></ComboBoxItem>
+                <ComboBoxItem Content="2045"></ComboBoxItem>
+                <ComboBoxItem Content="2046"></ComboBoxItem>
+                <ComboBoxItem Content="2047"></ComboBoxItem>
+                <ComboBoxItem Content="2048"></ComboBoxItem>
+                <ComboBoxItem Content="2049"></ComboBoxItem>
+                <ComboBoxItem Content="2050"></ComboBoxItem>
+            </ComboBox>
+            <Button x:Name="ExportButton" VerticalAlignment="Center" HorizontalAlignment="Center" Width="158" Content="Vyexportovat" Foreground="White" Click="ExportButtonClick" Grid.Column="3" Margin="129,15,0.2,15"/>
+            <Button x:Name="DisplayButton" VerticalAlignment="Center" HorizontalAlignment="Center" Width="96" Content="Zobrazit" Foreground="White" Click="DisplayButtonClick" Grid.Column="3" Margin="10,15,145.2,15"/>
+        </Grid>
+    </Grid>
+</Window>
